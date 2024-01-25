@@ -6,7 +6,7 @@ public class JDBCcode{
 	
 	    JDBCcode() throws SQLException{
 		String username= "root";
-	    String password="Rit!@#1115";
+	    String password="password";
 	    String url="jdbc:mysql://localhost:3306/Restaurant_Project";
 		this.conn=DriverManager.getConnection(url,username,password);
 	}
